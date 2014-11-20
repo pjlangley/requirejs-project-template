@@ -1,0 +1,10 @@
+{
+  "name": "requirejs",
+  "private": "true",
+  "description": "Exploring RequireJS",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "~4.10.2",
+    "jade": "~1.7.0"
+  }
+}

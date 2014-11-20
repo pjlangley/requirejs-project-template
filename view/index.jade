@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        title= "Exploring RequireJS"
+        link(href="/assets/css/normalize.css", rel="stylesheet")
+    body
+        h1="Order form"
+
+        form(id="js-order-form")
+            legend="Customise your order"
+            fieldset
+                p="Doughnut"
+                p
+                    label="Quantity"
+                        input(type="number", name="quantity", value="0")
+
+            button(type="submit")="Order"
+
+        script(data-main="/assets/js/main", src="/assets/js/vendor/require.js")
+        //script(src="/assets/js/prod/prod-almond.js") // Production build

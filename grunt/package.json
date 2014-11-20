@@ -1,0 +1,10 @@
+{
+  "name": "requirejs-task-runner",
+  "description": "Task runner for require JS",
+  "version": "0.0.1",
+  "main": "gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-requirejs": "~0.4.4"
+  }
+}
